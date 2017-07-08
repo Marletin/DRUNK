@@ -6,7 +6,7 @@
 			<link rel="stylesheet" href="Drunk.css"/>
 			<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-			<script src="test.js"></script>
+			<script src="Drunk.js"></script>
 		</head>
 		<body>
 			<div id="body_wrapper">
