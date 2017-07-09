@@ -6,7 +6,7 @@ html, body {
     	position: relative;
 	cursor: default;
 	font-family: 'Indie Flower';
-	background-color: #42f49b;
+	background-color: #41c146;
 }
 
 #body_wrapper{
@@ -71,5 +71,5 @@ html, body {
 	float: left;
 	padding: 20px;
 	height:100%;
-	background-color: #42f49b;
+	background-color: #41c146;
 }
