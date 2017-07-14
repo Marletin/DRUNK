@@ -16,6 +16,10 @@ html, body {
 	overflow: hidden;
 }
 
+/**********/
+/*Page One*/
+/**********/
+
 #h_one {
 	position: absolute;
 	top: 50%;
@@ -46,30 +50,64 @@ html, body {
 }
 
 #slide{
-	height: 100%;
-	width: 200%;
+	height: 200%;
+	width: 400%;
 	margin-left: 0;
 }
 
 .panel {
-	height: 100%;
-	width: 50%;
+	height: 50%;
+	width: 25%;
 	float: left;
 	position: relative;
 }
 
+/**********/
+/*Page Two*/
+/**********/
+
 #page_two{
-	background-color: #66ccff;
+	background-color: #efefef;
+	font-family: 'Roboto';
 }
 
 #h_two {
+	position: relative;
+	width: calc(100% - 235px);
 	text-align: center;
+	left: 235px;
 }
 
 #navig{
+	position: absolute;
 	font-size: 30px;
 	float: left;
 	padding: 20px;
 	height:100%;
 	background-color: #41c146;
+}
+nav li{
+	color: #000;
+	transition: color 0.2s linear;
+}
+
+nav li:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+#txt_wrapper {
+	width: calc(100% - 235px);
+	position: relative;
+	left: 235px;
+	text-align: center;
+	font-size: 25px;
+}
+
+/*************/
+/*Application*/
+/*************/
+
+#page_app {
+	
 }
