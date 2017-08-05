@@ -1,9 +1,9 @@
 html, body {
 	margin: 0;
-    	padding: 0;
-   	height: 100%;
-    	width: 100%;
-    	position: relative;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 	cursor: default;
 	font-family: 'Indie Flower';
 	background-color: #41c146;
@@ -35,7 +35,7 @@ html, body {
 	height: 0;
 	text-align: center;
 	border-top: 50px solid transparent;
-  	border-bottom: 50px solid transparent;
+  border-bottom: 50px solid transparent;
 	border-left: 100px solid #000000;
 	position: absolute;
 	right: 5%;
@@ -59,7 +59,7 @@ html, body {
 	height: 50%;
 	width: 25%;
 	float: left;
-	position: relative;
+	position: absolute;
 }
 
 /**********/
@@ -109,5 +109,5 @@ nav li:hover{
 /*************/
 
 #page_app {
-	
+
 }
