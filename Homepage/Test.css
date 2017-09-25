@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  cursor: default;
+  background-color: #050505;
+  color: #ef1010;
+  overflow: hidden;
+  position: relative;
+}
+
+.fa {
+  font-family: FontAwesome;
+}
+
+
+/**********/
+/*Page One*/
+/**********/
