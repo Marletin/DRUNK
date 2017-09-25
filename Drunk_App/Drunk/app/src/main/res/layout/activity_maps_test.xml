@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapsTest" >
+    tools:context=".MapsTest">
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingActionButton"
@@ -11,6 +11,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="330dp"
         android:layout_marginTop="580dp"
+        android:layout_weight="1"
         android:clickable="true"
         app:fabSize="mini"
         app:srcCompat="@color/colorAccent" />
@@ -22,10 +23,35 @@
         android:layout_height="match_parent"
         tools:context="com.drunkapp.app.drunk.MapsTest" />
 
-    <TextureView
-        android:id="@+id/textureView"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/ChatText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:alpha="0.5" />
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="300dp"
+        android:drawableLeft="@drawable/ic_menu_send"
+        android:text="Send"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:backgroundTint="@android:color/background_dark"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+    </LinearLayout>
 
 </FrameLayout>

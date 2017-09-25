@@ -17,7 +17,7 @@ public class StartActivity extends AppCompatActivity {
 
     }
 
-    protected void startAct(View v)
+    public void startAct(View v)
     {
         Intent intent = new Intent(this, MapsTest.class);
         startActivity(intent);
