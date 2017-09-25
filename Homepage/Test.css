@@ -1,20 +1,69 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  cursor: default;
-  background-color: #050505;
-  color: #ef1010;
-  overflow: hidden;
-  position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    cursor: default;
+    background-color: #050505;
+    /*overflow: hidden;*/
+    color: #ef1010;
 }
 
 .fa {
-  font-family: FontAwesome;
+    font-family: FontAwesome;
 }
 
+#slide{
+    width: 400%;
+    height: 400%;
+    margin-left: 100%;
+    margin-top: 100%;
 
-/**********/
-/*Page One*/
-/**********/
+}
+
+.mainframe {
+    height: 25%;
+    width: 100%;
+}
+
+.inner_page {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+#up_le {
+    background-color: yellow;
+}
+
+#up_mi {
+    background-color: blue;
+}
+
+#up_ri {
+    background-color: red;
+}
+
+#mi_li {
+    background-color: purple;
+}
+
+#mi_mi {
+    background-color: black;
+}
+
+#mi_ri {
+    background-color: lime;
+}
+
+#do_le {
+    background-color: green;
+}
+
+#do_mi {
+    background-color: lightgrey;
+}
+
+#do_ri {
+    background-color: white;
+}
