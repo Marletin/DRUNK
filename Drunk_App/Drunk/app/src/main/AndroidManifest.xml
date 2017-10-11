@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.drunkapp.app.drunk">
 
-  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
         android:allowBackup="true"
@@ -41,7 +41,8 @@
 
         <activity
             android:name=".MapsTest"
-            android:label="@string/title_activity_maps_test"></activity>
+            android:label="@string/title_activity_maps_test" />
+        <activity android:name=".GMapsActivity"></activity>
     </application>
 
 </manifest>

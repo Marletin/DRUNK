@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class StartActivity extends AppCompatActivity {
 
-    static long appStarted = 0;
+    //static long appStarted = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class StartActivity extends AppCompatActivity {
 
     public void startAct(View v)
     {
-        Intent intent = new Intent(this, MapsTest.class);
+        Intent intent = new Intent(this, GMapsActivity.class);
         startActivity(intent);
         finish();
     }

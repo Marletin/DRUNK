@@ -7,4 +7,6 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps_test">Map</string>
+    <string name="public_chat_tab">Public Chat</string>
+    <string name="enter_message">Enter message</string>
 </resources>
